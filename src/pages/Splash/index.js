@@ -11,6 +11,7 @@ import { MyGap } from '../../components';
 import { colors, fonts, windowHeight, windowWidth } from '../../utils';
 import { getData } from '../../utils/localStorage';
 
+
 export default function Splash({ navigation }) {
   const top = new Animated.Value(0.3);
 
@@ -38,10 +39,13 @@ export default function Splash({ navigation }) {
     animasi();
 
 
+
+
+
     const unsubscribe = getData('user').then(res => {
       // console.log(res);
       if (!res) {
-        // console.log('beum login');
+        console.log('beum login');
 
         setTimeout(() => {
           navigation.replace('Login');

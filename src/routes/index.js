@@ -5,6 +5,7 @@ import {
   Home,
   Login,
   Register,
+  Belajar,
 } from '../pages';
 import { colors } from '../utils';
 
@@ -51,6 +52,19 @@ export default function Router() {
         component={Home}
         options={{
           headerShown: false,
+        }}
+      />
+
+      <Stack.Screen
+        name="Belajar"
+        component={Belajar}
+        options={{
+          headerShown: true,
+          headerTitle: 'BELAJAR',
+          headerStyle: {
+            backgroundColor: colors.primary,
+          },
+          headerTintColor: '#fff',
         }}
       />
 

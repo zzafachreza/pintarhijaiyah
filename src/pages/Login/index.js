@@ -106,7 +106,10 @@ export default function ({ navigation }) {
               fontFamily: fonts.primary[400],
               textAlign: 'center',
               color: colors.black
-            }}>Belum punya user ? silahkan daftar disini</Text></TouchableOpacity></>
+            }}>Belum punya user ? <Text style={{
+              fontFamily: fonts.secondary[600],
+              color: colors.primary
+            }}>Daftar</Text></Text></TouchableOpacity></>
 
         }
       </View>

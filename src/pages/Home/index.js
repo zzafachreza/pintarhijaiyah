@@ -139,11 +139,16 @@ export default function Home({ navigation }) {
       </View>
 
       {/* dasahboar kotak2 */}
+      <Image source={require('../../assets/logo.png')} style={{
+        width: 200,
+        height: 200,
+        alignSelf: 'center'
+      }} />
 
       <View style={{
-        flex: 1,
         justifyContent: 'center'
       }}>
+
         <View
           style={{
             flexDirection: 'row',
@@ -151,7 +156,7 @@ export default function Home({ navigation }) {
           }}>
           <DataKategori
             warna={colors.primary}
-            onPress={() => navigation.navigate('Scanner')}
+            onPress={() => navigation.navigate('Belajar')}
             icon="book-outline"
             nama="BELAJAR"
             nama2="Yuk belajar hiyajiyah"
