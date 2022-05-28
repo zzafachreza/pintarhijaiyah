@@ -178,7 +178,7 @@ export default function Home({ navigation }) {
           }}>
           <DataKategori
             warna={colors.primary}
-            onPress={() => navigation.navigate('LaporanTanggal')}
+            onPress={() => navigation.navigate('Lagu')}
             icon="musical-notes-outline"
             nama="MUSIK"
             nama2="Dengarkan suaranya yuk"

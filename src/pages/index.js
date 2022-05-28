@@ -3,6 +3,9 @@ import Home from './Home';
 import Login from './Login';
 import Register from './Register';
 import Belajar from './Belajar';
+import BelajarSambung from './BelajarSambung';
+import Lagu from './Lagu';
+import Play from './Play';
 
 
 
@@ -21,5 +24,8 @@ export {
   Home,
   Login,
   Register,
-  Belajar
+  Belajar,
+  BelajarSambung,
+  Play,
+  Lagu
 };
