@@ -18,7 +18,7 @@ export const getData = async key => {
     // error reading value
   }
 };
-export const apiURL = 'https://zavalabs.com/pintarhijaiyah';
+export const apiURL = 'https://zavalabs.com/pintarhijaiyah/api/';
 
 export const dataSuara = [
   {

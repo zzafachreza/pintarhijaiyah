@@ -9,6 +9,10 @@ import {
   BelajarSambung,
   Lagu,
   Play,
+  Kuis,
+  Level_1,
+  Hasil,
+  History,
 } from '../pages';
 import { colors } from '../utils';
 
@@ -103,6 +107,60 @@ export default function Router() {
         options={{
           headerShown: true,
           headerTitle: 'PUTAR LAGU',
+          headerStyle: {
+            backgroundColor: colors.primary,
+          },
+          headerTintColor: '#fff',
+        }}
+      />
+
+      <Stack.Screen
+        name="Kuis"
+        component={Kuis}
+        options={{
+          headerShown: true,
+          headerTitle: 'KUIS',
+          headerStyle: {
+            backgroundColor: colors.primary,
+          },
+          headerTintColor: '#fff',
+        }}
+      />
+
+
+      <Stack.Screen
+        name="Hasil"
+        component={Hasil}
+        options={{
+          headerShown: true,
+          headerTitle: 'HASIL',
+          headerStyle: {
+            backgroundColor: colors.primary,
+          },
+          headerTintColor: '#fff',
+        }}
+      />
+
+      <Stack.Screen
+        name="History"
+        component={History}
+        options={{
+          headerShown: true,
+          headerTitle: 'History',
+          headerStyle: {
+            backgroundColor: colors.primary,
+          },
+          headerTintColor: '#fff',
+        }}
+      />
+
+
+      <Stack.Screen
+        name="Level_1"
+        component={Level_1}
+        options={{
+          headerShown: true,
+          headerTitle: 'LEVEL 1',
           headerStyle: {
             backgroundColor: colors.primary,
           },

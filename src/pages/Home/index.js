@@ -163,7 +163,7 @@ export default function Home({ navigation }) {
           />
           <DataKategori
             warna={colors.primary}
-            onPress={() => navigation.navigate('Kamera')}
+            onPress={() => navigation.navigate('Kuis')}
             icon="pencil-outline"
             nama="KUIS"
             nama2="Kuis Menarik loh"
@@ -185,7 +185,7 @@ export default function Home({ navigation }) {
           />
           <DataKategori
             warna={colors.primary}
-            onPress={() => navigation.navigate('Hasil')}
+            onPress={() => navigation.navigate('History')}
             icon="file-tray-stacked-outline"
             nama="HISTORY"
             nama2="Riwayat aktifitas kamu"
