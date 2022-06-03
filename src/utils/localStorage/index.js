@@ -328,70 +328,87 @@ export const dataSambung = [
     id: 0,
     image: require('../../assets/0s.png'),
 
+
   },
   {
     id: 1,
     image: require('../../assets/1s.png'),
+    lafal: 'Dara`a'
   },
   {
     id: 2,
     image: require('../../assets/2s.png'),
+    lafal: 'Hadibu'
   },
   {
     id: 3,
     image: require('../../assets/3s.png'),
+    lafal: 'Walama'
   },
   {
     id: 4,
     image: require('../../assets/4s.png'),
+    lafal: 'Kurima'
   },
   {
     id: 5,
     image: require('../../assets/5s.png'),
+    lafal: 'Jamidan'
   },
   {
     id: 6,
     image: require('../../assets/6s.png'),
+    lafal: 'Halikun'
   },
   {
     id: 7,
     image: require('../../assets/7s.png'),
+    lafal: 'Jurima'
   },
   {
     id: 8,
     image: require('../../assets/8s.png'),
+    lafal: 'La`iba'
   },
   {
     id: 9,
     image: require('../../assets/9s.png'),
+    lafal: 'Ma`asya'
   },
   {
     id: 10,
     image: require('../../assets/10s.png'),
+    lafal: 'Nasyato'
   },
   {
     id: 11,
     image: require('../../assets/11s.png'),
+    lafal: 'Wahaba'
   },
   {
     id: 12,
     image: require('../../assets/12s.png'),
+    lafal: 'Halaka'
   },
   {
     id: 13,
     image: require('../../assets/13s.png'),
+    lafal: 'Yasaro'
   },
   {
     id: 14,
     image: require('../../assets/14s.png'),
+    lafal: 'Abadan'
   },
   {
     id: 15,
     image: require('../../assets/15s.png'),
+    lafal: 'Ahadun'
   },
   {
     id: 16,
     image: require('../../assets/16s.png'),
+    lafal: 'Khosyi`ah'
   },
 ]
 

@@ -13,6 +13,8 @@ import {
   Level_1,
   Hasil,
   History,
+  Level_2,
+  Level_3,
 } from '../pages';
 import { colors } from '../utils';
 
@@ -166,6 +168,35 @@ export default function Router() {
           },
           headerTintColor: '#fff',
         }}
+      />
+
+      <Stack.Screen
+        name="Level_2"
+        component={Level_2}
+        options={{
+          headerShown: true,
+          headerTitle: 'LEVEL 2',
+          headerStyle: {
+            backgroundColor: colors.primary,
+          },
+          headerTintColor: '#fff',
+        }}
+      />
+
+      <Stack.Screen
+        name="Level_3"
+        component={Level_3}
+        options={({ route }) => ({
+          title: route.params.name, headerShown: true,
+          headerStyle: {
+            backgroundColor: colors.primary,
+          },
+          headerTintColor: '#fff',
+        })}
+
+
+
+
       />
 
 
