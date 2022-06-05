@@ -48,7 +48,10 @@ export default function Play({ route }) {
                     whoosh.play();
 
                 }} Icons='play' warna={colors.primary} />
-
+                <MyGap jarak={10} />
+                <MyButton onPress={() => {
+                    whoosh.pause();
+                }} Icons='pause' warna={colors.primary} />
                 <MyGap jarak={10} />
                 <MyButton onPress={() => {
                     whoosh.stop();
